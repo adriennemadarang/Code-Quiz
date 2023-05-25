@@ -24,6 +24,9 @@ THEN I can save my initials and score<br>
 ## Deployed Link
 
 ## Screenshots
+<img width="1440" alt="Screen Shot 2023-05-25 at 3 52 14 AM" src="https://github.com/adriennemadarang/Code-Quiz/assets/128556908/73723cdc-287e-4da9-a023-7f47f11dbf5e">
+<img width="1440" alt="Screen Shot 2023-05-25 at 3 51 57 AM" src="https://github.com/adriennemadarang/Code-Quiz/assets/128556908/52fd6de5-045f-4a45-b34e-9c04488d48c9">
+
 
 ## Acknowledgements
 Shout out to my classmates, TA's, instructor and all the information the University of Minnesota provided. 
