@@ -112,7 +112,7 @@ function checkAnswer(event) {
 function endQuiz() {
     clearInterval(timer);
     quizContainerEl.setAttribute("class", "hide");
-    resultsEl.removeAttribute("class","hide");
+    resultsEl.removeAttribute("class", "hide");
 
     var scoreEl = document.getElementById('score');
     scoreEl.textContent = timeSec;
@@ -128,16 +128,16 @@ function saveHighScore() {
         score: timeSec,
         name: scorerName
     };
-    if(highScore===null){
+    if (highScore === null) {
         highScore = [];
     }
     highScore.push(newScore);
     window.localStorage.setItem("highScore", JSON.stringify(highScore));
-    window.location.href="highscores.html"
+    window.location.href = "highscores.html"
 }
 
 
 
 quizContainerEl.addEventListener("click", checkAnswer);
 startButton.addEventListener("click", startQuiz);
-submitButton.addEventListener('click',saveHighScore)
+submitButton.addEventListener('click', saveHighScore)
