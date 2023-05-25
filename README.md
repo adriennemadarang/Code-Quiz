@@ -22,10 +22,11 @@ WHEN the game is over<br>
 THEN I can save my initials and score<br>
 
 ## Deployed Link
+https://adriennemadarang.github.io/Code-Quiz/
 
 ## Screenshots
-<img width="1440" alt="Screen Shot 2023-05-25 at 3 52 14 AM" src="https://github.com/adriennemadarang/Code-Quiz/assets/128556908/73723cdc-287e-4da9-a023-7f47f11dbf5e">
-<img width="1440" alt="Screen Shot 2023-05-25 at 3 51 57 AM" src="https://github.com/adriennemadarang/Code-Quiz/assets/128556908/52fd6de5-045f-4a45-b34e-9c04488d48c9">
+<img width="1177" alt="Screen Shot 2023-05-25 at 4 39 38 PM" src="https://github.com/adriennemadarang/Code-Quiz/assets/128556908/80b85df8-6bd5-41f2-874f-9b27eff31856">
+<img width="1181" alt="Screen Shot 2023-05-25 at 4 40 12 PM" src="https://github.com/adriennemadarang/Code-Quiz/assets/128556908/8e68a9a7-c833-4710-9c73-3ab489e4171b">
 
 
 ## Acknowledgements
