@@ -2,6 +2,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+header{
+    display:flex;
+    width:100%;
+    min-height:200px;
+    align-content:justify-content-center;
+}
+
 .start-screen{
     text-align: center;
     margin: 250px;
@@ -32,6 +39,39 @@ button {
     display: none;
 }
 
-.quiz-running {
-    
+.container {
+    display:flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: center;
+align-content: center;
+text-align:center;
+/* width:100%; */
+}
+
+.container>*:first-child{
+    order:-1;
+    flex:1 0 100%;
+    /* align-items:stretch;
+    align-content: center; */
+}
+.container>p{
+    flex:1 0 100%;
+}
+.row{
+    display:inline-flexbox;
+
+}
+
+.wrapper{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    height: 100%;
+}
+
+.title{
+width: 100%;
 }

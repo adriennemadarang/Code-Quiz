@@ -9,33 +9,36 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<header>
-    <div class="row">
-        <a href="highscore.html">View High Score</a>
-    </div>
-    <div id="timer">Time: 0</div>
-</header>
+
 
 <body>
-    <div class="start-screen" id="start-screen">
-        <h1>Code Quiz Challenge</h1>
-        <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers
-            will penalize your score/time by 15 seconds!
-        </p>
-        <button id="start-button">Start Quiz</button>
+    <header>
+        <div class="row">
+            <a href="highscores.html">View High Score</a>
+        </div>
+        <div id="timer">Time: 0</div>
+    </header>
+    <div class="wrapper">
+        <div class="container" id="start-screen">
+            <h1 class="title">Code Quiz Challenge</h1>
+            <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect
+                answers
+                will penalize your score/time by 15 seconds!
+            </p>
+            <button id="start-button">Start Quiz</button>
+        </div>
+
+        <div class="container" id="quiz-container"></div>
+
+        <div class="hide" id="results">
+
+            <h2>All Done!</h2>
+            <p>Your final score is <span id="score"></span></p>
+            <p>Enter name: <input type="text" id="name">
+                <button id="submit">Submit</button>
+            </p>
+        </div>
     </div>
-
-    <div class="start-screen" id="quiz-container"></div>
-
-    <div class="hide" id="results">
-
-        <h2>All Done!</h2>
-        <p>Your final score is <span id ="score"></span></p>
-        <p>Enter name: <input type="text" id="name">
-            <button id="submit">Submit</button>
-        </p>
-    </div>
-
     <script src="./assets/js/script.js"></script>
 </body>
 
